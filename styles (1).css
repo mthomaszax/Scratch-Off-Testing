@@ -15,17 +15,6 @@ body {
   touch-action: none;
 }
 
-#container {
-  position: relative;
-  width: 90%;
-  max-width: 400px;
-  height: auto;
-  aspect-ratio: 9/16;
-  border: 7px solid #801ED7;
-  border-radius: 10px;
-  overflow: hidden;
-}
-
 #scratchCanvas {
   position: absolute;
   top: 0;
@@ -54,17 +43,4 @@ body {
   top: 0;
   left: 0;
   z-index: 2;
-}
-
-#closeButton {
-  font-family: 'Roboto', '-apple-system', 'Helvetica Neue', Arial, sans-serif;
-  margin-top: 20px;
-  padding: 10px 20px;
-  font-size: 20px;
-  background-color: #c95165;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  text-decoration: none;
 }
